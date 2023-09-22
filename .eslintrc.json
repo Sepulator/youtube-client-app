@@ -17,6 +17,7 @@
         "airbnb-typescript/base"
       ],
       "rules": {
+        "no-console": ["error", { "allow": ["warn", "error"] }],
         "@angular-eslint/directive-selector": [
           "error",
           {
