@@ -5,6 +5,7 @@ export interface ItemsEntity {
   snippet: Snippet;
   statistics: Statistics;
 }
+
 export interface Snippet {
   publishedAt: string;
   channelId: string;
@@ -18,6 +19,7 @@ export interface Snippet {
   localized: Localized;
   defaultAudioLanguage: string;
 }
+
 export interface Thumbnails {
   default: ThumbnailsEntity;
   medium: ThumbnailsEntity;
@@ -25,15 +27,18 @@ export interface Thumbnails {
   standard: ThumbnailsEntity;
   maxres: ThumbnailsEntity;
 }
+
 export interface ThumbnailsEntity {
   url: string;
   width: number;
   height: number;
 }
+
 export interface Localized {
   title: string;
   description: string;
 }
+
 export interface Statistics {
   viewCount: string;
   likeCount: string;

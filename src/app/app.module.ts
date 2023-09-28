@@ -3,10 +3,10 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import AppRoutingModule from './app-routing.module';
 import AppComponent from './app.component';
-import { AuthComponent } from './auth/auth.component';
+import Components from './components';
 
 @NgModule({
-  declarations: [AppComponent, AuthComponent],
+  declarations: [AppComponent, ...Components],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
