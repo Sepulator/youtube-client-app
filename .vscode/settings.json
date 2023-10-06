@@ -9,5 +9,9 @@
 
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
-  }
+  },
+  "css.customData": ["./.vscode/css-data.json"],
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+}
 }
