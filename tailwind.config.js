@@ -7,7 +7,8 @@ module.exports = {
       colors: {
         tahiti: {
           searchInput: '#EFEFEF',
-          searchInputText:'#929292'
+          searchInputText:'#929292',
+          titleText:'#4F4F4F'
         },
       },
     },
