@@ -8,7 +8,8 @@ module.exports = {
         tahiti: {
           searchInput: '#EFEFEF',
           searchInputText:'#929292',
-          titleText:'#4F4F4F'
+          titleText:'#4F4F4F',
+          descText:'#828282'
         },
       },
     },

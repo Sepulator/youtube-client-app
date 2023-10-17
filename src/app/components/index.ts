@@ -12,6 +12,7 @@ import MoreButtonComponent from './search-result/more-button/more-button.compone
 import ThumbnailComponent from './search-result/thumbnail/thumbnail.component';
 import CountIconComponent from './search-result/count-icon/count-icon.component';
 import VideoTitleComponent from './search-result/video-title/video-title.component';
+import CardViewComponent from './card-view/card-view.component';
 
 const Components = [
   FilterComponent,
@@ -28,6 +29,7 @@ const Components = [
   ThumbnailComponent,
   CountIconComponent,
   VideoTitleComponent,
+  CardViewComponent,
 ];
 
 export default Components;

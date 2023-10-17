@@ -3,34 +3,37 @@
   <nav
     class="relative container w-max mx-auto px-4 grid grid-rows-[80px_50px] sm:grid-cols-[auto_auto] md:grid-cols-3 lg:grid-cols-4 sm:items-center sm:justify-center gap-x-2.5 sm:px-6 lg:px-8"
     aria-label="Global">
-    <div class="flex flex-wrap sm:justify-between sm:flex-nowrap md:col-span-2 md:col-start-1 lg:col-start-2 sm:items-center gap-2.5">
-      <a class="flex-none" href="#" aria-label="Brand"><img src="../../../assets/icons/logo.png" alt="Logo"></a>
-      <label for="hs-trailing-button-add-on" class="sr-only">Label</label>
+    <div
+      class="flex flex-wrap sm:justify-between sm:flex-nowrap md:col-span-2 md:col-start-1 lg:col-start-2 sm:items-center gap-2.5">
+      <a class="flex-none" href="#" aria-label="Brand"><img src="assets/icons/logo.png" alt="Logo"></a>
+      <label for="hs-trailing-button-add-on" class="sr-only"></label>
       <div class="flex rounded-md">
         <input type="text" id="hs-trailing-button-add-on" name="hs-trailing-button-add-on"
+          placeholder="What are you want to find out?"
           class="py-1.5 block w-96 text-tahiti-searchInputText bg-tahiti-searchInput border-gray-200 shadow-sm rounded-l-md text-sm focus:z-10 focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400">
         <button type="button"
-          class="px-7 inline-flex flex-shrink-0 justify-center items-center rounded-r-md border border-transparent bg-blue-500 text-white hover:bg-blue-600 focus:z-10 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all shadow-md">search</button>
+          class="px-7 inline-flex text-xs  flex-shrink-0 justify-center items-center rounded-r-md border border-transparent bg-blue-500 text-white hover:bg-blue-600 focus:z-10 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all shadow-md">search</button>
       </div>
       <button type="button"
         class="w-8 h-8 flex justify-center items-center rounded-md border border-transparent bg-blue-500 text-white hover:bg-blue-600 focus:z-10 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all shadow-[2px_0px_4px_0px_rgb(47,128,237)]">
         <svg-icon src="assets/icons/settings.svg"></svg-icon>
       </button>
     </div>
-    <a class="flex justify-end items-center gap-x-2  hover:text-white" href="#">
+    <a class="flex text-xs justify-end items-center gap-x-2  hover:text-white" href="#">
       Your Name
-      <svg-icon class=" drop-shadow-[2px_2px_4px_rgba(47,128,237,0.25)]" src="assets/icons/login.svg"></svg-icon>
+      <svg-icon class="drop-shadow-[2px_2px_4px_rgba(47,128,237,0.25)]" src="assets/icons/login.svg"></svg-icon>
     </a>
-    <div class="flex flex-wrap sm:justify-start sm:flex-nowrap md:col-span-2 md:col-start-1 lg:col-start-2 sm:items-center gap-2.5">
-      <span>Sorting by:</span>
+    <div
+      class="flex flex-wrap sm:justify-start sm:flex-nowrap md:col-span-2 md:col-start-1 lg:col-start-2 sm:items-center gap-2.5">
+      <span class="text-xs">Sorting by:</span>
       <div class="flex gap-5">
-        <span class="text-blue-500 underline hover:no-underline hover:cursor-pointer">date</span>
-        <span class="text-blue-500 underline hover:no-underline hover:cursor-pointer">count of views</span>
-        <span class="text-blue-500 underline hover:no-underline hover:cursor-pointer">by word or sentence</span>
+        <span class="text-xs text-blue-500 underline hover:no-underline hover:cursor-pointer">date</span>
+        <span class="text-xs text-blue-500 underline hover:no-underline hover:cursor-pointer">count of views</span>
+        <span class="text-xs text-blue-500 underline hover:no-underline hover:cursor-pointer">by word or sentence</span>
       </div>
       <div class="flex flex-auto">
         <input type="text"
-          class="py-0.5 block w-full text-tahiti-searchInputText bg-white border-gray-200 shadow-sm text-sm focus:z-10 focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400">
+          class="py-0.5 block w-full text-xs text-tahiti-searchInputText bg-white border-gray-200 shadow-sm focus:z-10 focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400">
       </div>
     </div>
   </nav>
