@@ -1,0 +1,70 @@
+<div class="w-full max-w-md mx-auto p-6">
+  <div class="mt-7 bg-white border border-gray-200 rounded-xl shadow-sm dark:bg-gray-800 dark:border-gray-700">
+    <div class="p-4 sm:p-7">
+      <h1 class="block text-lg font-bold text-gray-800 dark:text-white">
+        Registration</h1>
+      <!-- Form -->
+      <form class="grid gap-y-4 mt-5">
+        <!-- Form Group -->
+        <div>
+          <label for="email" class="block text-xs mb-2 text-tahiti-descText dark:text-white">
+            Email address</label>
+          <div class="relative">
+            <input type="email" id="email" name="email"
+              class="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400"
+              required aria-describedby="email-error">
+            <div class="hidden absolute inset-y-0 right-0 flex items-center pointer-events-none pr-3">
+              <svg-icon class="h-5 w-5 text-red-500" src="assets/icons/error.svg"></svg-icon>
+            </div>
+          </div>
+          <p class="hidden text-xs text-red-600 mt-2" id="email-error">
+            Please include a valid email address so we can get back to you</p>
+        </div>
+        <!-- End Form Group -->
+
+        <!-- Form Group -->
+        <div>
+          <label for="password" class="block text-xs text-tahiti-descText mb-2 dark:text-white">
+            Password</label>
+          <div class="relative">
+            <input type="password" id="password" name="password"
+              class="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400"
+              required aria-describedby="password-error">
+            <div class="hidden absolute inset-y-0 right-0 flex items-center pointer-events-none pr-3">
+              <svg-icon class="h-5 w-5 text-red-500" src="assets/icons/error.svg"></svg-icon>
+            </div>
+          </div>
+          <p class="hidden text-xs text-red-600 mt-2" id="password-error">
+            8+ characters required</p>
+        </div>
+        <!-- End Form Group -->
+
+        <!-- Form Group -->
+        <div>
+          <label for="confirm-password" class="block text-xs text-tahiti-descText mb-2 dark:text-white">
+            Confirm Password</label>
+          <div class="relative">
+            <input type="password" id="confirm-password" name="confirm-password"
+              class="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400"
+              required aria-describedby="confirm-password-error">
+            <div class="hidden absolute inset-y-0 right-0 flex items-center pointer-events-none pr-3">
+              <svg-icon class="h-5 w-5 text-red-500" src="assets/icons/error.svg"></svg-icon>
+            </div>
+          </div>
+          <p class="hidden text-xs text-red-600 mt-2" id="confirm-password-error">
+            Password does not match the password</p>
+        </div>
+        <!-- End Form Group -->
+        <div class="flex flex-nowrap justify-end gap-2">
+          <button type="submit"
+            class="py-3 px-4 inline-flex underline justify-center items-center gap-2 rounded-md border border-transparent text-blue-500 hover:no-underline focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all text-sm dark:focus:ring-offset-gray-800">
+            Login</button>
+          <button type="submit"
+            class="py-3 px-4 w-[150px] inline-flex justify-center items-center gap-2 rounded-md border border-transparent bg-blue-500 text-white hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all text-sm dark:focus:ring-offset-gray-800">
+            Registration</button>
+        </div>
+      </form>
+      <!-- End Form -->
+    </div>
+  </div>
+</div>

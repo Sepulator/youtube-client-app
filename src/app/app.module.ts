@@ -7,9 +7,10 @@ import { AngularSvgIconModule } from 'angular-svg-icon';
 import AppRoutingModule from './app-routing.module';
 import AppComponent from './app.component';
 import Components from './components';
+import { AuthComponent } from './components/auth/auth.component';
 
 @NgModule({
-  declarations: [AppComponent, ...Components],
+  declarations: [AppComponent, ...Components, AuthComponent],
   imports: [
     HttpClientModule,
     AngularSvgIconModule.forRoot(),
